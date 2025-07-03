@@ -102,7 +102,8 @@ class AppTheme {
     ),
 
     // Enhanced card theme with Instagram-like styling
-    cardTheme: CardTheme(
+    cardTheme: const CardTheme( // ✅ Fixed with const
+
       color: cardLight,
       elevation: 0,
       shadowColor: Colors.transparent,
@@ -291,7 +292,8 @@ class AppTheme {
       trackHeight: 4,
     ),
 
-    tabBarTheme: TabBarTheme(
+    tabBarTheme: const TabBarTheme( // ✅ Use const
+
       labelColor: primaryLight,
       unselectedLabelColor: textSecondary,
       indicatorColor: primaryLight,
@@ -394,7 +396,8 @@ class AppTheme {
       elevation: 0,
       shadowColor: Colors.transparent,
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(20.0),
+        borderRadius: const BorderRadius.circular(20.0),
+
       ),
       margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
     ),
