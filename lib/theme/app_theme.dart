@@ -21,31 +21,6 @@ class AppTheme {
     primaryColor: primaryLight,
     scaffoldBackgroundColor: backgroundLight,
     fontFamily: GoogleFonts.inter().fontFamily,
-    cardTheme: const CardTheme(
-      color: Colors.white,
-      elevation: 2,
-      shadowColor: Colors.black12,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.all(Radius.circular(20.0)),
-      ),
-      margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-    ),
-    tabBarTheme: const TabBarTheme(
-      labelColor: primaryLight,
-      unselectedLabelColor: Colors.grey,
-      indicatorColor: primaryLight,
-      indicatorSize: TabBarIndicatorSize.label,
-      labelStyle: TextStyle(
-        fontSize: 16,
-        fontWeight: FontWeight.w600,
-        letterSpacing: 0,
-      ),
-      unselectedLabelStyle: TextStyle(
-        fontSize: 16,
-        fontWeight: FontWeight.w400,
-        letterSpacing: 0,
-      ),
-    ),
     appBarTheme: const AppBarTheme(
       backgroundColor: Colors.white,
       elevation: 0,
@@ -78,31 +53,6 @@ class AppTheme {
     primaryColor: secondary,
     scaffoldBackgroundColor: backgroundDark,
     fontFamily: GoogleFonts.inter().fontFamily,
-    cardTheme: const CardTheme(
-      color: Color(0xFF1E1E1E),
-      elevation: 0,
-      shadowColor: Colors.transparent,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.all(Radius.circular(20.0)),
-      ),
-      margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-    ),
-    tabBarTheme: const TabBarTheme(
-      labelColor: secondary,
-      unselectedLabelColor: Colors.grey,
-      indicatorColor: secondary,
-      indicatorSize: TabBarIndicatorSize.label,
-      labelStyle: TextStyle(
-        fontSize: 16,
-        fontWeight: FontWeight.w600,
-        letterSpacing: 0,
-      ),
-      unselectedLabelStyle: TextStyle(
-        fontSize: 16,
-        fontWeight: FontWeight.w400,
-        letterSpacing: 0,
-      ),
-    ),
     appBarTheme: const AppBarTheme(
       backgroundColor: Color(0xFF121212),
       elevation: 0,
