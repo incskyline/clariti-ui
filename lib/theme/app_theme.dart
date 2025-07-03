@@ -388,7 +388,8 @@ class AppTheme {
         letterSpacing: -0.3,
       ),
     ),
-    cardTheme: CardTheme(
+    cardTheme: const CardTheme(
+
       color: cardDark,
       elevation: 0,
       shadowColor: Colors.transparent,
