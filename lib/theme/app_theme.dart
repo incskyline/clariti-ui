@@ -79,3 +79,8 @@ class AppTheme {
     ),
   );
 }
+void testAppThemeColors() {
+  print('Success color: $success');
+  print('Error color: $error');
+  print('Warning color: $warning');
+}
