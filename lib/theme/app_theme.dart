@@ -78,9 +78,11 @@ class AppTheme {
       textStyle: TextStyle(color: Colors.white),
     ),
   );
-}
-void testAppThemeColors() {
-  print('Success color: $success');
-  print('Error color: $error');
-  print('Warning color: $warning');
+
+  // Optional: For testing/debugging theme colors
+  static void testAppThemeColors() {
+    print('Success color: \$success');
+    print('Error color: \$error');
+    print('Warning color: \$warning');
+  }
 }
