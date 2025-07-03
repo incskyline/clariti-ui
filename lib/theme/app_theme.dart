@@ -559,22 +559,22 @@ class AppTheme {
       inactiveTrackColor: primaryDark.withValues(alpha: 0.3),
       trackHeight: 4,
     ),
-    tabBarTheme: TabBarTheme(
-      labelColor: primaryDark,
-      unselectedLabelColor: textSecondaryDark,
-      indicatorColor: primaryDark,
-      indicatorSize: TabBarIndicatorSize.label,
-      labelStyle: GoogleFonts.inter(
-        fontSize: 16,
-        fontWeight: FontWeight.w600,
-        letterSpacing: 0,
-      ),
-      unselectedLabelStyle: GoogleFonts.inter(
-        fontSize: 16,
-        fontWeight: FontWeight.w400,
-        letterSpacing: 0,
-      ),
-    ),
+    // tabBarTheme: TabBarTheme(
+     // labelColor: primaryDark,
+      // unselectedLabelColor: textSecondaryDark,
+      // indicatorColor: primaryDark,
+      // indicatorSize: TabBarIndicatorSize.label,
+      // labelStyle: GoogleFonts.inter(
+      //  fontSize: 16,
+      //  fontWeight: FontWeight.w600,
+      //  letterSpacing: 0,
+     // ),
+     // unselectedLabelStyle: GoogleFonts.inter(
+     //   fontSize: 16,
+     //   fontWeight: FontWeight.w400,
+     //   letterSpacing: 0,
+    //  ),
+   // ),
     tooltipTheme: TooltipThemeData(
       decoration: BoxDecoration(
         color: textPrimaryDark.withValues(alpha: 0.9),
