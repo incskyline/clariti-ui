@@ -8,12 +8,18 @@ class AppTheme {
   static const Color error = Color(0xFFE74C3C);
   static const Color warning = Color(0xFFF39C12);
   static const Color secondary = Color(0xFF9B59B6);
+  static const Color shadowLight = Color(0x1A000000); // 10% black
+  static const Color info = Color(0xFF3498DB);
+  static const Color backgroundLight = Color(0xFFF5F6FA);
+  static const Color backgroundDark = Color(0xFF181818);
+  static const Color disabled = Color(0xFFBDBDBD);
+  static const Color highlight = Color(0xFF8E44AD);
 
   // === Light Theme ===
   static final ThemeData lightTheme = ThemeData(
     brightness: Brightness.light,
     primaryColor: primaryLight,
-    scaffoldBackgroundColor: Colors.white,
+    scaffoldBackgroundColor: backgroundLight,
     fontFamily: GoogleFonts.inter().fontFamily,
     cardTheme: const CardTheme(
       color: Colors.white,
@@ -70,7 +76,7 @@ class AppTheme {
   static final ThemeData darkTheme = ThemeData(
     brightness: Brightness.dark,
     primaryColor: secondary,
-    scaffoldBackgroundColor: const Color(0xFF121212),
+    scaffoldBackgroundColor: backgroundDark,
     fontFamily: GoogleFonts.inter().fontFamily,
     cardTheme: const CardTheme(
       color: Color(0xFF1E1E1E),
